@@ -2,13 +2,15 @@
 @import "utils/breakpoints";
 
 
-.title{
+.title {
     color: var(--tp-theme-1);
-    background: #b3b3b3;
+    background: #000;
     display: block;
     padding: 10px 20px;
     margin-top: 200px;
+
     @media #{$md,$sm,$xs} {
-        background: red;
+        background: var(--tp-grey-2);
     }
 }
+
