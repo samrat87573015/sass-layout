@@ -1,0 +1,14 @@
+@import "utils/color";
+@import "utils/breakpoints";
+
+
+.title{
+    color: var(--tp-theme-1);
+    background: #b3b3b3;
+    display: block;
+    padding: 10px 20px;
+    margin-top: 200px;
+    @media #{$md,$sm,$xs} {
+        background: red;
+    }
+}

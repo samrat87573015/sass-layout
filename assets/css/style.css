@@ -1,0 +1,39 @@
+:root {
+  /**
+  @color declaration
+  */
+  --tp-common-white: #ffffff;
+  --tp-common-black: #000;
+  --tp-common-black-2: #24292d;
+  --tp-heading-primary: #343a40;
+  --tp-grey-1: #c5c5c5;
+  --tp-grey-2: #aeaeae;
+  --tp-grey-3: #acacac;
+  --tp-grey-4: #999999;
+  --tp-grey-5: #f7f7f7;
+  --tp-grey-6: #b7b7b7;
+  --tp-grey-7: #a6aeb5;
+  --tp-grey-8: #edf2f6;
+  --tp-text-body: #777777;
+  --tp-text-1: #000;
+  --tp-theme-1: #20de59;
+  --tp-theme-2: #fff1f1;
+  --tp-border-1: #ededed;
+  --tp-border-2: #e9e9e9;
+  --tp-border-3: #999999;
+}
+
+.title {
+  color: var(--tp-theme-1);
+  background: #b3b3b3;
+  display: block;
+  padding: 10px 20px;
+  margin-top: 200px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
+  .title {
+    background: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
